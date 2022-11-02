@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>specificity</title>
+    <link rel="stylesheet" href="specificity.css">
+    <style>
+        body{
+            color: blue;
+        }
+   #hello{
+    color: inherit;
+   }
+   .aman{
+    color: initial;
+   }
+   .akshay{
+    color: unset;
+   }
+    
+    </style>
+</head>
+<body> 
+    <ul id="summer">
+        <li class="ak"><h1>shopping item</h1></li>
+        <li>default<a href="#">link</a>color</li>
+        <li class="aman">inherit<a href="#">link</a>color</li>
+        <li id="hello">initial<a href="#">link</a>color</li>
+        <li class="akshay">unset<a href="#">link</a>color</li>
+    </ul>
+    
+</body>
+</html>

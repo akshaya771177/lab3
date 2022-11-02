@@ -1,0 +1,50 @@
+body{
+    
+}
+header{
+    background-color: pink;
+    font-size: 50px;
+    text-align: center;
+     padding: 30px;
+     position: sticky;
+}
+nav {
+float: left;
+background-color: black;
+padding: 1em;
+font-size: 20pt;
+width: 97%;
+word-spacing: 8pc;
+
+}
+.aaa{
+    position: sticky;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+   
+
+}
+.aa{
+font-weight: 900;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+ h1{
+    font: size 20px 5px;
+    font-weight: 900;
+}
+@media screen and (max-width: 1001px),screen and (min-width:200px){
+    body {
+    color:blue;
+         }
+}
+footer{
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-size: 15pt;
+}

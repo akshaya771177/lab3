@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+    }
+    .container{
+        
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+    }
+    .flex-item{
+        width: 380px;
+        height: 700px;
+        
+        flex-direction:column;
+        border: 1px solid black;
+    }
+    input[type="SUBMIT"]:hover{
+        background-color: aqua;
+        transition: 1s;
+  
+    }
+    input[type="SUBMIT"]{
+        border: none;
+        padding: 10px;
+        width: 80%;
+     background-color: grey;
+        color: white;
+        
+    }
+    .greenhouse{
+        width: 100%;
+        
+    }
+    @media screen and (max-width: 700px) {
+     .container{
+        flex-direction: column;
+     }   
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="flex-item"><img class="greenhouse" src="/assets/images/greenhouse.webp" alt="">
+        <h1>seamlessly visualize quality</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum cupiditate rerum tempore repellat et ipsum saepe optio beatae inventore repellendus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus repellendus veniam nam vel fugit beatae ab consectetur numquam ex delectus.</p>
+       
+    <input type="submit" value="READ MORE">
+</div>
+        <div class="flex-item"><img class="greenhouse" src="/assets/images/greenhouse2.webp" alt="">
+            <h1>completely synergize</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum cupiditate rerum tempore repellat et ipsum saepe optio beatae inventore repellendus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat sit quaerat delectus minus ut optio quo voluptatum, corporis ipsum iste?</p>
+    
+     <input type="submit" value="READ MORE">
+</div>
+        <div class="flex-item"><img class="greenhouse" src="/assets/images/greenhouse3.webp" alt="">
+            
+            <h1>dynamically procrastinate</h1> 
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum cupiditate rerum tempore repellat et ipsum saepe optio beatae inventore repellendus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Error rem, eveniet voluptate aspernatur debitis cupiditate sed similique inventore hic voluptatibus.</p>
+    
+    <input type="submit" value="READ MORE">
+</div>
+    </div>
+</body>
+</html>

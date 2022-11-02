@@ -1,0 +1,45 @@
+*{
+box-sizing: border-box;
+box-shadow: yellowgreen;
+
+
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   margin: 15px 30px;
+   font-size: 20px;
+   padding: 10px;
+   color: white;
+   font-weight: 900;
+   width: 45%;
+   background-repeat: no-repeat;
+   background-size: 100%;
+   
+}
+.specific{
+  border-left: tomato;
+    background-color: lightgreen;
+    padding: 5px 20px 15px 20px;
+    border-radius: 12px;
+  border: 1px solid black;
+ 
+}
+input[type="text"],
+input[type="email"]{
+width:100%;
+border: hidden;
+background-color: #f2f2f2;
+border-radius: 10px;
+margin: 12px;
+}
+input[type="SUBMIT"]{
+    border: 1px solid black;
+    background-color: white;
+    padding: 13px;
+    margin: 5px 5px ;
+    width: 16%;
+    
+}
+.clip_image{
+  clip-path: circle(29.2% at 51% 57%);
+}

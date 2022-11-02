@@ -1,0 +1,13 @@
+table,tr,td,th{
+    border: 2px solid black;
+  border-collapse: collapse;
+  padding: 15px;
+  margin: 25px;
+  border-spacing: 15px;
+}
+ th{
+    background-color: brown;
+ }
+ td{
+    background-color: bisque;
+ }
